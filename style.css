@@ -86,6 +86,21 @@ body {
   border: solid 0.5px black;
 }
 
+#green {
+  background-color: green;
+  border: solid 0.5px black;
+}
+
+#purple {
+  background-color: purple;
+  border: solid 0.5px black;
+}
+
+#orange {
+  background-color: orange;
+  border: solid 0.5px black;
+}
+
 #rgb {
   background-image: linear-gradient(to right, #e11717, #d05300, #b87500, #9c8e00, #7da200, #58a841, #31aa68, #00aa89, #009baf, #0087e5, #0068ff, #2017e7);
   border: solid 0.5px black;
@@ -108,7 +123,6 @@ body {
 .grid-container div {
   display: flex;
   flex: 1;
-  border: solid 1px black;
 }
 
 .grid-container div:hover {
