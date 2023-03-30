@@ -26,24 +26,61 @@ body {
   font-size: 1.5rem;
 }
 
-.btn {
+.btns {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 0.6em;
 }
 
-.popup {
+.popup,
+.clear {
   padding: 0.3em 1.2em;
   font-size: 1.2rem;
   background-color: rgb(158, 201, 158);
   border: solid 1px rgb(158, 201, 158);
   border-radius: 10px;
+  margin-bottom: 1em;;
 }
 
-.btn p {
+.btns p {
   font-size: 1.3rem;
   color: antiquewhite;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.color {
+  padding: 1.2em;
+}
+
+#black {
+  background-color: black;
+  border: solid 0.5px white;
+}
+
+#white {
+  background-color: white;
+  border: solid 0.5px black;
+}
+
+#red {
+  background-color: red;
+  border: solid 0.5px black;
+}
+
+#yellow {
+    background-color: yellow;
+    border: solid 0.5px black;
+}
+
+#blue {
+  background-color: blue;
+  border: solid 0.5px black;
 }
 
 .grid-container {
@@ -59,4 +96,8 @@ body {
   display: flex;
   flex: 1;
   border: solid 1px black;
+}
+
+.grid-container div:hover {
+  background-color: black;
 }
