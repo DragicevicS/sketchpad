@@ -48,7 +48,15 @@ body {
 
 .grid-container {
   display: flex;
+  flex-wrap: wrap;
   width: 600px;
   height: 600px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.grid-container div {
+  display: flex;
+  flex: 1;
   border: solid 1px black;
 }
